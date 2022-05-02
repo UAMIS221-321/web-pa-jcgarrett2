@@ -57,7 +57,7 @@ function handleDeleteClick()
     deleteBook()
 }
 
-function  handleCancelSave()
+function handleCancelSave()
 {
     populateForm();
     makeReadOnly();
@@ -114,7 +114,7 @@ function showButtons()
 
 function makeEditable()
 {
-    document.getElementById("bookTitle").readOnly =false;
+    document.getElementById("bookTitle").readOnly=false;
     document.getElementById("bookAuthor").readOnly =false;
     document.getElementById("bookGenre").readOnly =false;
     document.getElementById("bookAvlb").readOnly =false;
